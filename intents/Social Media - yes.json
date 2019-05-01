@@ -1,0 +1,77 @@
+{
+  "id": "bb2f9b97-2127-4bd9-9ac6-ad3ee7ca692a",
+  "parentId": "af6c2097-837f-4051-b8dc-16674d6bb5d3",
+  "rootParentId": "af6c2097-837f-4051-b8dc-16674d6bb5d3",
+  "name": "Social Media - yes",
+  "auto": true,
+  "contexts": [
+    "SocialMedia-followup",
+    "username"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SocialMedia.SocialMedia-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "To join our mobile list, text STEAK to 41411. We will send you one message weekly. To join our email list, open the link below."
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Mailing List",
+          "imageUrl": "http://www.rothmannssteakhouse.com/wp-content/uploads/2015/04/RothmannsSteakhouse-Logo-500W4.png",
+          "buttons": [
+            {
+              "text": "Join our List",
+              "postback": "http://www.rothmannssteakhouse.com/contact/"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "#username.given-name-user, thanks for joining our lists. We are looking forward to seeing you soon."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "To join our mobile list, text STEAK to 41411. We will send you one message weekly. To join our email list, open the link below."
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "links": [
+              {
+                "text": "Mailing List",
+                "link": "http://www.rothmannssteakhouse.com/contact/",
+                "image": "http://www.rothmannssteakhouse.com/wp-content/uploads/2015/04/RothmannsSteakhouse-Logo-500W4.png"
+              }
+            ]
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "#username.given-name-user, thanks for joining our lists. We are looking forward to seeing you soon."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531867231,
+  "fallbackIntent": false,
+  "events": []
+}

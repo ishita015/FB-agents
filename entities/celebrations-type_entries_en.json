@@ -1,0 +1,39 @@
+[
+  {
+    "value": "engagement",
+    "synonyms": [
+      "engagement"
+    ]
+  },
+  {
+    "value": "other",
+    "synonyms": [
+      "other",
+      "other celebartion"
+    ]
+  },
+  {
+    "value": "anniversary",
+    "synonyms": [
+      "anniversary"
+    ]
+  },
+  {
+    "value": "birthday",
+    "synonyms": [
+      "birthday"
+    ]
+  },
+  {
+    "value": "rehearsal dinner",
+    "synonyms": [
+      "rehearsal dinner"
+    ]
+  },
+  {
+    "value": "business celebartion",
+    "synonyms": [
+      "business celebartion"
+    ]
+  }
+]

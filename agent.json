@@ -1,0 +1,45 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "name": "agent",
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "rothmansrestaurant",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "e01b664b-00f5-4ff1-9bf6-2fc567cf3a28",
+      "57a690b7-e67d-4701-b777-23ca59f6ddfe",
+      "35cc5fde-032a-4c20-8b27-4ca9582b9c25",
+      "269319d9-0e14-47ec-b5ec-2b9a19a12100",
+      "e9ad17d6-9422-4ba9-8b9e-38c142a9a97a"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

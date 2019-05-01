@@ -1,0 +1,40 @@
+{
+  "id": "fa6ce9be-1dd1-4612-ae4d-5b21509be15c",
+  "parentId": "af6c2097-837f-4051-b8dc-16674d6bb5d3",
+  "rootParentId": "af6c2097-837f-4051-b8dc-16674d6bb5d3",
+  "name": "Social Media - no",
+  "auto": true,
+  "contexts": [
+    "SocialMedia-followup",
+    "username"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SocialMedia.SocialMedia-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Thanks, #username.given-name-user. We are looking forward to seeing you soon."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks, #username.given-name-user. We are looking forward to seeing you soon."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531859391,
+  "fallbackIntent": false,
+  "events": []
+}

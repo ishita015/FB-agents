@@ -1,0 +1,50 @@
+[
+  {
+    "value": "Degel",
+    "synonyms": [
+      "Degel"
+    ]
+  },
+  {
+    "value": "Aiello",
+    "synonyms": [
+      "Aiello"
+    ]
+  },
+  {
+    "value": "@sys.last-name:last-name ",
+    "synonyms": [
+      "@sys.last-name:last-name "
+    ]
+  },
+  {
+    "value": "Aktipis",
+    "synonyms": [
+      "Aktipis"
+    ]
+  },
+  {
+    "value": "Rosner",
+    "synonyms": [
+      "Rosner"
+    ]
+  },
+  {
+    "value": "Klein",
+    "synonyms": [
+      "Klein"
+    ]
+  },
+  {
+    "value": "Share",
+    "synonyms": [
+      "Share"
+    ]
+  },
+  {
+    "value": "Mayse",
+    "synonyms": [
+      "Mayse"
+    ]
+  }
+]

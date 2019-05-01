@@ -1,0 +1,9 @@
+{
+  "id": "b745efad-7f62-4bdb-9b6e-eb4bfe0245e4",
+  "name": "celebrations-type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

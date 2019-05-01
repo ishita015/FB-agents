@@ -1,0 +1,44 @@
+[
+  {
+    "value": "@sys.given-name:given-name",
+    "synonyms": [
+      "@sys.given-name:given-name"
+    ]
+  },
+  {
+    "value": "Stavros",
+    "synonyms": [
+      "Stavros"
+    ]
+  },
+  {
+    "value": "Willie",
+    "synonyms": [
+      "Willie"
+    ]
+  },
+  {
+    "value": "Myles",
+    "synonyms": [
+      "Myles"
+    ]
+  },
+  {
+    "value": "Gabriel",
+    "synonyms": [
+      "Gabriel"
+    ]
+  },
+  {
+    "value": "Loni",
+    "synonyms": [
+      "Loni"
+    ]
+  },
+  {
+    "value": "J",
+    "synonyms": [
+      "J"
+    ]
+  }
+]

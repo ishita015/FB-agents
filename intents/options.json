@@ -1,0 +1,154 @@
+{
+  "id": "cfda8f90-7364-4146-9d80-9d2129b0c680",
+  "name": "options",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "options-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "username",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9a249420-5715-4194-aed1-6c9ca20804bb",
+          "required": false,
+          "dataType": "@last-name-list",
+          "name": "last-name-user",
+          "value": "$last-name-user",
+          "isList": false
+        },
+        {
+          "id": "aeca100c-5f38-4426-8a32-ea0c8785908e",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "given-name-user",
+          "value": "$given-name-user",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your name?"
+            },
+            {
+              "lang": "en",
+              "value": "Your name, please."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Hello $given-name-user! How can we help you?"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "MyDiningBot",
+          "subtitle": "How can I help you?",
+          "imageUrl": "http://mydiningbot.com/assets/img/cards/fb-card-1.jpg",
+          "buttons": [
+            {
+              "text": "Reservations",
+              "postback": "make_reservation"
+            },
+            {
+              "text": "Private Parties",
+              "postback": "private_parties"
+            },
+            {
+              "text": "Online Ordering",
+              "postback": "online_ordering"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "MyDiningBot",
+          "subtitle": "How can I help you?",
+          "imageUrl": "http://mydiningbot.com/assets/img/cards/fb-card-2.jpg",
+          "buttons": [
+            {
+              "text": "Catering",
+              "postback": "catering"
+            },
+            {
+              "text": "Gift Cards",
+              "postback": "buying_gift"
+            },
+            {
+              "text": "Social Media",
+              "postback": "social_media"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "MyDiningBot",
+          "subtitle": "How can I help you?",
+          "imageUrl": "http://mydiningbot.com/assets/img/cards/fb-card-3.jpg",
+          "buttons": [
+            {
+              "text": "Promotions",
+              "postback": "promotions"
+            },
+            {
+              "text": "Employment",
+              "postback": "employment"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hello $given-name-user! How can we help you?",
+            "Hi $given-name-user! What are you looking for?"
+          ]
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "options": [
+              {
+                "id": "social_media",
+                "text": "Social Media",
+                "payload": "social_media"
+              }
+            ]
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1551086912,
+  "fallbackIntent": false,
+  "events": []
+}

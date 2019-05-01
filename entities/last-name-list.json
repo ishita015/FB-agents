@@ -1,0 +1,9 @@
+{
+  "id": "310059b3-b538-4668-bdb4-9960b5c3a648",
+  "name": "last-name-list",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

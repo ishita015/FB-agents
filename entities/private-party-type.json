@@ -1,0 +1,9 @@
+{
+  "id": "6493a56a-f420-48f0-a38f-75163fc97a31",
+  "name": "private-party-type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,102 @@
+{
+  "id": "af6c2097-837f-4051-b8dc-16674d6bb5d3",
+  "name": "Social Media",
+  "auto": true,
+  "contexts": [
+    "options-followup",
+    "username"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "SocialMedia-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Have you followed us on Instagram and our other social media platforms?"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Facebook",
+          "imageUrl": "http://mydiningbot.com/assets/img/cards/facebook.jpg",
+          "buttons": [
+            {
+              "text": "Visit Page",
+              "postback": "https://www.facebook.com/Rothmanns-Steakhouse-122224305083/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Instagram",
+          "imageUrl": "http://mydiningbot.com/assets/img/cards/instagram.jpg",
+          "buttons": [
+            {
+              "text": "Visit Page",
+              "postback": "https://www.instagram.com/ROTHMANNS_STEAKHOUSE/"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Would you like to receive great offers and news from us when you join our mobile and email list?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Have you followed us on Instagram and our other social media platforms?"
+        },
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "links": [
+              {
+                "text": "Facebook",
+                "link": "https://www.facebook.com/Rothmanns-Steakhouse-122224305083/",
+                "image": "http://mydiningbot.com/assets/img/cards/facebook.jpg"
+              },
+              {
+                "text": "Instagram",
+                "link": "https://www.instagram.com/ROTHMANNS_STEAKHOUSE/",
+                "image": "http://mydiningbot.com/assets/img/cards/instagram.jpg"
+              }
+            ]
+          }
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Would you like to receive great offers and news from us when you join our mobile and email list?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1551088002,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "social_media"
+    }
+  ]
+}
