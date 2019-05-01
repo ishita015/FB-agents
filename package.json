@@ -2,8 +2,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "node": "nodemon index.js"
+    "start": "node server.js",
+    "node": "nodemon server.js"
     },
   "dependencies": {
     "body-parser": "^1.19.0",
