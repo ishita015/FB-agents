@@ -18,6 +18,11 @@ app.use((req, res, next) => {
 	}
 	next();
 });
+
+app.get('**', function (req, res) {
+    res.send('Sorry, this is an invalid URL...');
+});
+
 const agents = require('./api/routes/agentsRoutes')
 app.use('/agents', agents);
 module.exports = app;
